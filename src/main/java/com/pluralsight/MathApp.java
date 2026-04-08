@@ -17,9 +17,23 @@ information for what you are
        //prints out a message using a string and the "highestSalary" Variable
         System.out.println("Gary has a higher salary at $" + highestSalary);
 
-        //Find and display the smallest of two variables
-        //Find and display the area of a circle whose radius is 7.25
+        //shows the Smaller of two variables
+        int carPrice = 49000;
+        int truckPrice = 66000;
+        int lowestPrice = Math.min(carPrice, truckPrice);
+
+        //prints out a message using a string and the "highestSalary" Variable
+        System.out.println("the average car in the U.S. is cheaper than a truck at $" + lowestPrice);
+
+        //Find the area of a circle
+        double circleRadius = 7.25;
+        double circleArea = Math.pow(7.25, 2) * Math.PI;
+
+        // Formats the area to only print first 2 decimals (0.00)
+        System.out.println("The Area of the circle is " + String.format("%.2f", circleArea));
+
         //Find and display the square root a variable after it is set to 5.0
+
         //Find and display the distance between the points (5, 10) and (85, 50)
         //Find and display the absolute (positive) value of a variable after it is set to -3.8
         //Find and display a random number between 0 and 1
