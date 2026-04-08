@@ -27,7 +27,7 @@ information for what you are
 
         //Find the area of a circle
         double circleRadius = 7.25;
-        double circleArea = Math.pow(7.25, 2) * Math.PI;
+        double circleArea = Math.pow(circleRadius, 2) * Math.PI;
 
         // Formats the area to only print first 2 decimals (0.00)
         System.out.println("The Area of the circle is " + String.format("%.2f", circleArea));
