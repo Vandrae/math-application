@@ -3,12 +3,6 @@ package com.pluralsight;
 public class MathApp {
     public static void main(String[] args) {
 
-        /*Use comments and line spacing to visually separate each question.
-Take your time to think of and use meaningful variable names (don't just use num1)
-Print meaningful messages to the screen so that the reader has all of the context
-information for what you are
-         */
-
         //shows the Larger of two variables
        int bobSalary = 102000;
        int garySalary = 185000;
@@ -39,8 +33,18 @@ information for what you are
         //Square root of circle formated
         System.out.println("The Square Root of " + circleArea + " is " + String.format("%.2f", circleRoot));
 
-        //Find and display the distance between the points (5, 10) and (85, 50)
+        //Math.pow() takes a value and adds an exponent to it in this case im doing √((x2-x1)² + (y2-y1)²)
+        int x1 = 5;
+        int y1 = 10;
+        int x2 = 85;
+        int y2 = 50;
+        double pointDis = Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+
+        //Formatting pointDis
+        System.out.println("The distance between " + x1 + "," + y1 + " and " + x2 + "," + y2
+                + " is " + String.format("%.2f", pointDis));
         //Find and display the absolute (positive) value of a variable after it is set to -3.8
+
         //Find and display a random number between 0 and 1
         //Calculate how many minutes are in 24 days, use a variable for each value
         //BONUS: How many milliseconds?
