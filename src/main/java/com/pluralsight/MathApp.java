@@ -43,9 +43,15 @@ public class MathApp {
         //Formatting pointDis
         System.out.println("The distance between " + x1 + "," + y1 + " and " + x2 + "," + y2
                 + " is " + String.format("%.2f", pointDis));
-        //Find and display the absolute (positive) value of a variable after it is set to -3.8
 
+        //set variable temp to -3.8 from 0 then find the absolute (positive)
+        double temp = 0;
+        temp = -3.8;
+        double absoluteTemp = Math.abs(temp);
+
+        System.out.println("the absolute of "+ temp+ " is " + absoluteTemp);
         //Find and display a random number between 0 and 1
+
         //Calculate how many minutes are in 24 days, use a variable for each value
         //BONUS: How many milliseconds?
 
