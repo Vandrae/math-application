@@ -17,7 +17,7 @@ public class MathApp {
         int lowestPrice = Math.min(carPrice, truckPrice);
 
         //prints out a message using a string and the "highestSalary" Variable
-        System.out.println("the average car in the U.S. is cheaper than a truck at $" + lowestPrice);
+        System.out.println("The average car in the U.S. is cheaper than a truck at $" + lowestPrice);
 
         //Find the area of a circle
         double circleRadius = 7.25;
@@ -49,11 +49,25 @@ public class MathApp {
         temp = -3.8;
         double absoluteTemp = Math.abs(temp);
 
-        System.out.println("the absolute of "+ temp+ " is " + absoluteTemp);
-        //Find and display a random number between 0 and 1
+        System.out.println("The absolute of "+ temp+ " is " + absoluteTemp);
+        //random number between 0 and 1
+        double coinFlip = 0;
 
-        //Calculate how many minutes are in 24 days, use a variable for each value
-        //BONUS: How many milliseconds?
+        System.out.println("A random number between 0 and 1 is: " + String.format("%.1f", Math.random()));
+
+        //needed variables and parts to calculate total minutes and milliseconds in 24 days
+        int totalDays = 24;
+        int hours = 24;
+        int min = 60;
+        int sec = 60;
+        int milSec = 1000;
+        int dailyMin = totalDays * hours * min;
+        int dailyMilSec = totalDays * hours * min * sec * milSec;
+
+        //top line displays minutes in 24 days, bottom line displays milliseconds in 24 days
+        System.out.println("There are " + dailyMin +" minutes in " + totalDays + " Days.");
+        System.out.println("There are " + dailyMilSec +" milliseconds in " + totalDays + " Days.");
+
 
 
 
