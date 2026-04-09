@@ -50,9 +50,8 @@ public class MathApp {
         double absoluteTemp = Math.abs(temp);
 
         System.out.println("The absolute of "+ temp+ " is " + absoluteTemp);
-        //random number between 0 and 1
-        double coinFlip = 0;
 
+        //random number between 0 and 1 formatted to the first dec place
         System.out.println("A random number between 0 and 1 is: " + String.format("%.1f", Math.random()));
 
         //needed variables and parts to calculate total minutes and milliseconds in 24 days
