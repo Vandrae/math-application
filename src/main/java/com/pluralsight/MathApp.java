@@ -45,7 +45,7 @@ public class MathApp {
                 + " is " + String.format("%.2f", pointDis));
 
         //set variable temp to -3.8 from 0 then find the absolute (positive)
-        double temp = 70;
+        double temp = 0;
         temp = -3.8;
         double absoluteTemp = Math.abs(temp);
 
