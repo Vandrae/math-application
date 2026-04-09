@@ -32,7 +32,12 @@ information for what you are
         // Formats the area to only print first 2 decimals (0.00)
         System.out.println("The Area of the circle is " + String.format("%.2f", circleArea));
 
-        //Find and display the square root a variable after it is set to 5.0
+        //Set area of the circle to 5 then calculate the Square root of it
+        circleArea = 5;
+        double circleRoot = Math.sqrt(circleArea);
+
+        //Square root of circle formated
+        System.out.println("The Square Root of " + circleArea + " is " + String.format("%.2f", circleRoot));
 
         //Find and display the distance between the points (5, 10) and (85, 50)
         //Find and display the absolute (positive) value of a variable after it is set to -3.8
